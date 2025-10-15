@@ -5,10 +5,10 @@ OUT_DIR="docs"
 mkdir -p "$OUT_DIR"
 
 # Architecture (whole repo)
-claude /ask --no-apply --output "${OUT_DIR}/architecture.md" < docs/prompts/01_architecture.txt
+claude -p < docs/prompts/01_architecture.txt > "${OUT_DIR}/architecture.md"
 
 # Module (rule-engine) — adjust module name if needed
-claude /ask --no-apply --output "${OUT_DIR}/rule-engine.md" < docs/prompts/02_module_rule_engine.txt
+claude -p < docs/prompts/02_module_rule_engine.txt > "${OUT_DIR}/rule-engine.md"
 
 echo "Generated: docs/architecture.md, docs/rule-engine.md"
 
