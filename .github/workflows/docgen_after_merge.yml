@@ -2,7 +2,7 @@ name: docgen-after-merge
 
 on:
   push:
-    branches: [ main ]             # triggers after PRs merge to main
+    branches: [ master ]             # triggers after PRs merge to main
     paths-ignore:
       - 'docs/**'                  # prevent loops when the docs PR merges
   workflow_dispatch: {}            # allow manual run
@@ -57,7 +57,7 @@ jobs:
             --title "Automated design docs update" \
             --body "Automated docgen (Claude Code). Please review Markdown + PlantUML diagrams for correctness." \
             --label "docs" \
-            --base main \
+            --base master \
             --head "$BR"
         env:
           GH_TOKEN: ${{ github.token }}
