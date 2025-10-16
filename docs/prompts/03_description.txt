@@ -1,2 +1,3 @@
 In one paragraph can you describe what the code base is trying to do?
-write it to the file under docs/description.md
+Do not attempt to write or modify any files.
+Output Markdown text with proper headings.

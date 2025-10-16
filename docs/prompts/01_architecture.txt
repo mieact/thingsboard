@@ -10,4 +10,5 @@ Analyze the entire codebase provided and generate a high-level **software archit
 7. **UML Diagram** – Generate a PlantUML diagram showing components and their relationships.
 
 Use formal technical language (suitable for architecture documentation). 
-Write in Markdown format with headings.
+Output in Markdown format with headings.
+Do not attempt to write or modify any files.
