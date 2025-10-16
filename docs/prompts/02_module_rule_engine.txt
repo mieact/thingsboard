@@ -8,4 +8,5 @@ Analyze the code in the module named “rule-engine" and generate detailed **des
 5. **Data Flow / Sequence** – describe the flow of data or control inside the module, optionally using a sequence diagram.
 6. **UML Diagram** – represent class/component relationships using PlantUML diagram.
 
-Write the document in Markdown using clear section headers and concise technical explanations.
+Ouput the document in Markdown using clear section headers and concise technical explanations.
+Do not attempt to write or modify any files.
